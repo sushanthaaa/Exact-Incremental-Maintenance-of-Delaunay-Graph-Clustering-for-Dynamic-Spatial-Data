@@ -1,0 +1,3 @@
+dataset,stream_kind,n_base,inserts,deletes,baseline_final_ari,baseline_min_ari,delaucluster_updates,delaucluster_mismatches,delaucluster_ari
+USGS earthquakes (real revision),real (ComCat),1451,2423,77,0.999955,0.998924,2500,0,1.0
+NYC collisions (modeled corr.),modeled,3000,~,~,0.8622436666666667,0.8207106666666667,1800,0,1.0

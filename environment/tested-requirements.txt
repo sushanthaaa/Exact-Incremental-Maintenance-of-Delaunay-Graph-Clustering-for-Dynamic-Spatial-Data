@@ -1,0 +1,7 @@
+# Direct Python package versions present during the 2026-09-18 macOS release checks.
+# This is not a complete transitive lockfile or the historical timing environment.
+numpy==2.4.3
+scipy==1.17.1
+pandas==3.0.1
+matplotlib==3.10.8
+scikit-learn==1.8.0

@@ -1,0 +1,6 @@
+experiment : ladder_latency (T2 single-vintage timing session, R3)
+generated  : 2026-07-16 17:51 IST
+git commit : working tree 2022b8911564b70e01d043b5532b4cc110a8ada6; src/include/CMakeLists frozen at 2022b89
+machine    : Apple M3, 8 cores, 8 GB, macOS 26.5.1, Apple clang, CGAL 6.1.1, CMake Release (C++17), single-threaded
+command    : python3 scripts/run_ladder_ablation.py --no-verify --out-dir results/ladder_latency_20260716_T2
+note       : sequential and ALONE with the other T2 harnesses; supersedes T1 for every quoted latency.

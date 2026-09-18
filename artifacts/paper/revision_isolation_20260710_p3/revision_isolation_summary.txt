@@ -1,0 +1,10 @@
+withdrawals=77
+retained_isolated_deg0=14
+noise_at_deletion=18
+partition_unchanged=26
+delaunay_split_events=18
+dbscan_split_events=0
+survivor_ari_mean=0.977016
+survivor_ari_min=0.723916
+frozen_threshold=1.1263747261335244
+baseline_eps=13.079952540648069

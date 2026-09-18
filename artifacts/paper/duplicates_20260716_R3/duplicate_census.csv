@@ -1,0 +1,8 @@
+dataset,rows,exact_coord_duplicate_rows,pct,handling
+NYC collisions (normalized),19518,0,0.0,coordinate-deduplicated at normalization (generate_datasets.py drop_duplicates)
+USGS western US (normalized),48878,0,0.0,same normalization dedup
+ComCat revision cache,13718,30,0.219,no dedup; coincident second insert rejected as no-op by the binary
+ComCat decluster cache,6112,3,0.049,same as revision cache
+AIS raw reports,381508,295286,77.4,same-vessel repeats dropped by decimation; cross-vessel exact collisions blocked by the stream builder's occupied-coordinate guard (0 skipped in the built stream)
+"decluster stream (projected, 1e-6)",6112,3,0.049,coincident insert -> no-op; delete -> nearest active
+"revision catalog (projected, 1e-6)",13718,30,0.219,same

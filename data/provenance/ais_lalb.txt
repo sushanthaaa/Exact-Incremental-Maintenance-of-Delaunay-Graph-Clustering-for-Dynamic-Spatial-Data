@@ -1,0 +1,5 @@
+source    : copied 2026-07-11 from ../Delaunay-Spatial-Classifier/data/stream/ais_lalb_big.csv
+content   : AIS vessel position reports, LA/Long Beach basin, 2023-01-01 00:00:00Z .. 2023-01-01 23:59:59Z
+            (381,508 rows, 874 vessels; columns mmsi,unix_time,lat,lon,status; no header)
+usage     : scripts/run_ais_moves.py replays this cache only; NEVER refetch/regenerate —
+            the paper's AIS counts depend on this exact snapshot (same policy as data/comcat_revision/).

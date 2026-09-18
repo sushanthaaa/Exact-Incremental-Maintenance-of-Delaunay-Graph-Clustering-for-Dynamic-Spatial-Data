@@ -1,0 +1,24 @@
+# Local builds, environments, caches, and generated experiment output.
+/build*/
+/.venv/
+/.cache/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+!.env.example
+/results/
+/figures/
+/data/real_spatial*/
+/data/comcat_revision/
+/data/ais_lalb/
+/data/synthetic/
+*.log
+*.aux
+*.bbl
+*.blg
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz

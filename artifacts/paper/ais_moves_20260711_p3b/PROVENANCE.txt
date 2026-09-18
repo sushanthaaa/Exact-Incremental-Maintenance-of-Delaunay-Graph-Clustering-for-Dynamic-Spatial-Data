@@ -1,0 +1,10 @@
+experiment : ais_moves (Tier C — genuine-move stream from real AIS vessel traces)
+generated  : 2026-07-11 19:19 IST
+git commit : working tree at 37013ff6c49eca146fc545711a665e0bed0f6500; src/include/CMakeLists frozen at 92a0d74
+machine    : Apple M3, 8 cores, 8 GB, macOS 26.5.1, Apple clang, CGAL 6.1.1, CMake Release (C++17), single-threaded
+command    : python3 scripts/run_ais_moves.py --out-dir results/ais_moves_20260711_p3b
+data       : data/ais_lalb/ais_lalb_big.csv (cached snapshot, see its PROVENANCE.txt; NEVER refetch)
+note       : correctness experiment (verified per-op vs from-scratch fit at frozen tau);
+             latencies NOT quotable. Supersedes results/ais_moves_20260711_p3 (first
+             construction wrongly deleted anchored-but-transmitting vessels: departure
+             rule used decimated instead of RAW last reports; kept for the record).

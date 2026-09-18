@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "snapshots": [
+    {
+      "archive": "data/snapshots/nyc_collisions_2012_2026_large.csv.gz",
+      "destination": "data/real_spatial_large/nyc_collisions_2012_2026_large.csv",
+      "sha256": "5c604aee5fbf7d75278c1f44db00b21e5364c3570c7f18ba070032887049626e",
+      "archive_sha256": "aa8a9546b59d5e837cae725f8bf648040ec64be1e2ead91f5c439dea05d0390b",
+      "bytes": 740923,
+      "archive_bytes": 356614
+    },
+    {
+      "archive": "data/snapshots/usgs_western_us_earthquakes_1980_2026_large.csv.gz",
+      "destination": "data/real_spatial_large/usgs_western_us_earthquakes_1980_2026_large.csv",
+      "sha256": "b44a02055418607d822cbdb29a794662e0c80219673e6f6332257f46155f154e",
+      "archive_sha256": "24c69dec26b71eedc82b8d7cc5f0fa59b5e9c57e0f0d6e4bfea2cc4349a91e28",
+      "bytes": 1848695,
+      "archive_bytes": 820589
+    },
+    {
+      "archive": "data/snapshots/socal_events.csv.gz",
+      "destination": "data/comcat_revision/socal_events.csv",
+      "sha256": "77f502031bee3bbe91c98a12aab32d7af1dc0e56350fdfde50597203476d68c9",
+      "archive_sha256": "8142bd8a7c6a44b67b0f92bbabefb9ead20f6e4749e3c330ddb19bebba740604",
+      "bytes": 640621,
+      "archive_bytes": 166051
+    },
+    {
+      "archive": "data/snapshots/socal_decluster.csv.gz",
+      "destination": "data/comcat_revision/socal_decluster.csv",
+      "sha256": "90673c9317b25d6b1af991211c4a0955cfd866d2522668141ea4b5cf3b92b317",
+      "archive_sha256": "a647f495afbac44bb9182560c0d3d5db9dc199475e0d92041c2f3177f74c2afa",
+      "bytes": 247268,
+      "archive_bytes": 79971
+    },
+    {
+      "archive": "data/snapshots/ais_lalb_big.csv.gz",
+      "destination": "data/ais_lalb/ais_lalb_big.csv",
+      "sha256": "ff664e69319714e73fc3a26ca5520b51878e9edcea9275e92251f750046ab7d9",
+      "archive_sha256": "127925d913b417c52fde2ccdea71afe6db0bd9dc88b06b13e697cfdca860e1a0",
+      "bytes": 17549244,
+      "archive_bytes": 4481778
+    }
+  ]
+}

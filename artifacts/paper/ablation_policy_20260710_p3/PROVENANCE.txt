@@ -1,0 +1,5 @@
+experiment : ablation_policy (Phase 3 Block 2, correctness/quality — latencies NOT quotable)
+generated  : 2026-07-10 20:23 IST
+git commit : 92a0d74fd73b1764490518897af6b54936bdb6b2 (code freeze)
+machine    : Apple M3, 8 cores, 8 GB, macOS 26.5.1, Apple clang, CGAL 6.1.1, CMake Release (C++17), single-threaded
+command    : python3 scripts/summarize_policy_ablation.py --out-dir results/ablation_policy_20260710_p3 (aggregates canonical static_5seed_summary)

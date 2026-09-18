@@ -1,0 +1,46 @@
+{
+  "date": "2026-09-18",
+  "host": {
+    "platform": "macOS arm64",
+    "compiler": "Apple Clang 21.0.0",
+    "cgal": "6.1.1",
+    "cmake": "4.3.2",
+    "python": "3.12.7",
+    "build_type": "Release"
+  },
+  "container": {
+    "base": "ubuntu:24.04",
+    "architecture": "aarch64",
+    "compiler": "GCC 13.3.0",
+    "cgal": "5.6",
+    "python": "3.12.3",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2",
+    "scikit-learn": "1.9.1"
+  },
+  "tests": {
+    "host_passed": 18,
+    "container_passed": 18,
+    "snapshot_archives_verified": 5,
+    "smoke_verified_updates": 60,
+    "smoke_mismatches": 0,
+    "adversarial_updates": 179,
+    "adversarial_mismatches": 0,
+    "ais_updates": 5752,
+    "ais_mismatches": 0,
+    "selector_cases": 40,
+    "selector_variants_per_case": 17,
+    "selector_rows": 680,
+    "selector_changed_thresholds_across_nondefault_variants": 10
+  },
+  "historical_comparison": "Host AIS summary and selector runs/summary match archived data with rtol=atol=1e-12; timings not re-benchmarked.",
+  "scope": "Host ran smoke, regression tests, restoration tests, adversarial suite, full selector sensitivity, and AIS workload. Ubuntu container ran smoke, all tests, snapshot integrity, and adversarial suite. The entire historical 36755-update suite and published timing benchmarks were not rerun for this release.",
+  "files": {
+    "adversarial_exactness.csv": "82a4da7964b333d457a4f64838ae7a85d447e5fff6bc4e0fec24b3abc12c2aec",
+    "ais_moves_summary.csv": "f214c05d6dfa792ceaf76db7c20229f753071523cad968bcf05cdba102020241",
+    "faithfulness_summary.csv": "2569ec5b7a48f0f2a6fe1534c24e23c752a6a74ea3160b1953e43f69f59f864e",
+    "selector_sensitivity_summary.csv": "6dd785970d3fa7145ca6a2e26ac089be04b0bcc027ad31c5755f9e9123c97358"
+  }
+}

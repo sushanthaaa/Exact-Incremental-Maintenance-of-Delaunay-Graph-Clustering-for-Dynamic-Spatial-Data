@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite this software repository and the accompanying ICTAI 2026 paper when using this work."
+type: software
+title: "DelauCluster: Exact Incremental Maintenance of Delaunay-Graph Clustering for Dynamic Spatial Data"
+authors:
+  - family-names: "Purushothama"
+    given-names: "Sushanth"
+    orcid: "https://orcid.org/0009-0007-6243-4479"
+repository-code: "https://github.com/sushanthaaa/Exact-Incremental-Maintenance-of-Delaunay-Graph-Clustering-for-Dynamic-Spatial-Data"
+license: GPL-3.0-or-later
+keywords:
+  - spatial clustering
+  - Delaunay triangulation
+  - dynamic clustering
+  - reproducibility

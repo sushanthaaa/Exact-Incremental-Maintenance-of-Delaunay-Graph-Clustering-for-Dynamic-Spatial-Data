@@ -1,0 +1,3 @@
+guarded_mean_ms=19.5483
+no_guard_mean_ms=6.0004
+guard_share_pct=69.30

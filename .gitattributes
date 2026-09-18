@@ -1,0 +1,8 @@
+* text=auto
+# Historical evidence must retain the exact bytes recorded in the manifest.
+artifacts/paper/** -text whitespace=cr-at-eol
+artifacts/release-checks/** -text whitespace=cr-at-eol
+data/provenance/** -text
+*.gz binary
+*.png binary
+*.pdf binary

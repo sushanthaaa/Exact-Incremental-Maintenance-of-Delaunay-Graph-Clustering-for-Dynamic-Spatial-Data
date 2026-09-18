@@ -1,0 +1,27 @@
+name: Build and verify
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    env:
+      MPLCONFIGDIR: ${{ github.workspace }}/.cache/matplotlib
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcgal-dev
+          python -m pip install -r requirements.txt
+      - name: Build, smoke experiment, and tests
+        run: bash run
+      - name: Verify archived inputs
+        run: python scripts/restore_data.py --verify-only
+      - name: Adversarial exactness
+        run: python scripts/run_adversarial_exactness.py

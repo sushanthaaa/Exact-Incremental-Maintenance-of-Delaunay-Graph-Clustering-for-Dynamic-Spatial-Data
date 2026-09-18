@@ -1,0 +1,2 @@
+region,events,aftershocks_deleted,inserts,deletes,ops,unionfind_final_ari,unionfind_min_ari,delaucluster_ok,delaucluster_verified,delaucluster_mismatches
+SoCal M>=2.5 (USGS ComCat),6112,4091,5812,4091,9903,0.647985,0.647985,True,True,0

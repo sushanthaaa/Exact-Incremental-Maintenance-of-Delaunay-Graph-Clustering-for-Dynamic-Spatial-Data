@@ -1,0 +1,9 @@
+case,verified_updates,fallbacks,partition_mismatches,edge_mismatches,bucket_mismatches,exit_code,passed
+A_high_degree_hub_delete,7,0,0,0,0,0,1
+B_bridge_delete_split,7,1,0,0,0,0,1
+C_move_merge_then_split,4,0,0,0,0,0,1
+D_log2n_noise_boundary,12,10,0,0,0,0,1
+E_near_cocircular_stress,11,0,0,0,0,0,1
+F_threshold_boundary_edges,6,0,0,0,0,0,1
+G_adversarial_mixed_order,120,2,0,0,0,0,1
+H_exactly_cocircular,12,0,0,0,0,0,1

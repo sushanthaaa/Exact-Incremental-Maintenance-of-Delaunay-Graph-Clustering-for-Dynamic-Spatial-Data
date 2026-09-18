@@ -1,0 +1,2 @@
+candidate_index,threshold,selected,nontrivial,active_points,edge_count,retained_edges,retained_edge_pct,num_clusters,noise_count,noise_pct,largest_cluster,largest_cluster_pct,component_entropy,base_objective,stability_adjustment,plateau_width_candidates,plateau_center_offset,largest_jump_before_pct,largest_jump_after_pct,noise_drop_after_pct,objective
+0,1.0967947108306775,1,1,1200,3572,2143,59.994400895856664,2,1,0.083333333333333329,924,77,0.77744445693568165,0.647583847035063,0,1,0,0,0,0,0.647583847035063

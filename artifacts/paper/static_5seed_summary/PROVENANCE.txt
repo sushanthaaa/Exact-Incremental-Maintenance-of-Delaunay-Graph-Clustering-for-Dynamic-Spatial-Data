@@ -1,0 +1,12 @@
+experiment      : static_5seed_summary  (CORRECTNESS/QUALITY re-verification)
+generated       : 2026-07-09 18:50 IST
+git commit      : 9efad1c (9efad1cbcd2c152ce58265f8e244dbb3459ddf14)
+machine         : Apple M3, 8 cores, 8 GB, macOS 26.5.1, Apple clang 21.0.0, CGAL 6.1.1, Release
+command         : python3 scripts/run_baseline_comparison.py --datasets all --seeds 42,43,44,45,46 \
+                    --base-limits 0 --out-dir results/static_5seed_summary --cluster-exe ./build/cluster
+result          : 400/400 runs ok. Reproduces Table IV exactly (no per-dataset cell differs > 0.005).
+                  Mean ARI: DelauClusterAuto 0.6752, DBSCAN 0.6900, HDBSCAN 0.6427, OPTICS 0.6368,
+                  Spectral 0.7300.  DelauClusterAuto TRAILS DBSCAN by 0.0148 and Spectral by 0.0548
+                  (confirms the corrected wording; it does NOT beat DBSCAN).
+note            : baselines are oracle-tuned (labels used for model selection) = an upper bound.
+                  runtime_ms columns here are not paper-cited and are not single-vintage timings.

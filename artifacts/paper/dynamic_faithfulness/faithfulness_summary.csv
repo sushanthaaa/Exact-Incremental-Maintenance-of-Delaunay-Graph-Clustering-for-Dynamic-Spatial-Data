@@ -1,0 +1,4 @@
+dataset,n_base,ops,seeds,insert_rate,delete_rate,baseline_final_ari_mean,baseline_final_ari_std,baseline_min_ari_mean,delaucluster_verified_runs_ok,delaucluster_total_updates,delaucluster_total_mismatches,delaucluster_ari
+chain_noise,2000,1000,5,0.25,0.5,0.9147109999999999,0.01917131722130747,0.9110616,5,5000,0,1.0
+varying_density,2000,1000,5,0.25,0.5,0.8155766,0.13891513802980582,0.6783798,5,5000,0,1.0
+touching,2000,1000,5,0.25,0.5,0.824296,0.03692676001492685,0.8068643999999999,5,5000,0,1.0

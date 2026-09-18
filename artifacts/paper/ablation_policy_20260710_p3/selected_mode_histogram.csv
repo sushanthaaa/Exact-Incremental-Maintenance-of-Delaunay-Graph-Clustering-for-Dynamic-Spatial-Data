@@ -1,0 +1,7 @@
+0,count
+raw_length,8
+local_scale,12
+knn_median,13
+supported_merge,2
+saddle_cut,4
+manifold_filter,1

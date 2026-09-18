@@ -1,0 +1,9 @@
+.git
+build*
+.venv
+.cache
+results
+**/__pycache__
+data/real_spatial_large
+data/comcat_revision
+data/ais_lalb

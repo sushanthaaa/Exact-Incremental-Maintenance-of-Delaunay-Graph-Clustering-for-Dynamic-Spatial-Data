@@ -1,0 +1,20 @@
+{
+  "dataset": "usgs_western_us_earthquakes_1980_2026_large",
+  "deduplicated_rows": 48877,
+  "label_column": null,
+  "label_count": 0,
+  "latitude_column": "latitude",
+  "longitude_column": "longitude",
+  "notes": "Western US USGS earthquake epicenters, magnitude >= 1.0, 1980-01-01 through 2026-05-20, fetched chronologically with USGS limit/offset pagination.",
+  "output_path": "data/real_spatial_large/usgs_western_us_earthquakes_1980_2026_large.csv",
+  "output_rows": 48877,
+  "projection": "local equirectangular kilometers",
+  "projection_center_latitude": 37.30271082170142,
+  "projection_center_longitude": -119.52818370582483,
+  "raw_path": "data/real_spatial_large/raw/usgs_western_us_earthquakes_1980_2026_large_raw.csv",
+  "raw_rows": 50000,
+  "source_name": "USGS Earthquake Catalog API",
+  "source_page": "https://earthquake.usgs.gov/fdsnws/event/1/",
+  "source_url": "https://earthquake.usgs.gov/fdsnws/event/1/query.csv?format=csv&starttime=1980-01-01&endtime=2026-05-20&minmagnitude=1.0&minlatitude=31&maxlatitude=49&minlongitude=-125&maxlongitude=-102&eventtype=earthquake&orderby=time-asc&limit=20000",
+  "valid_coordinate_rows": 50000
+}

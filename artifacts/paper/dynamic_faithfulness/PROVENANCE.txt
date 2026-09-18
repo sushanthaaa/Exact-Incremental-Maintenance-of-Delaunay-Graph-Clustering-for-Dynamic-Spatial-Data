@@ -1,0 +1,11 @@
+experiment      : dynamic_faithfulness  (CORRECTNESS re-verification)
+generated       : 2026-07-09 18:48 IST
+git commit      : 9efad1c (9efad1cbcd2c152ce58265f8e244dbb3459ddf14)
+machine         : Apple M3, 8 cores, 8 GB, macOS 26.5.1, Apple clang 21.0.0, CGAL 6.1.1, Release
+command         : python3 scripts/run_dynamic_faithfulness.py --datasets chain_noise,varying_density,touching \
+                    --n 2000 --ops 1000 --seeds 42,43,44,45,46 --out-dir results/dynamic_faithfulness \
+                    --cluster-exe ./build/cluster --idbscan-exe ./build/incremental_dbscan_stream
+result          : 15,000 verified updates, 0 mismatches, DelauCluster ARI 1.0 (5/5 runs ok per dataset).
+                  Baseline drift reproduced: 0.9147+-0.0192 / 0.8156+-0.1389 / 0.8243+-0.0369.
+                  drift-vs-rate reproduced: 0.935 -> 0.896 -> 0.852 (delete rate 0.2/0.35/0.5).
+note            : timings in this dir are NOT quotable (verifier adds a from-scratch fit per update).

@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+# Headless smoke driver: build the C++ tools, run a small exact-dynamic
+# faithfulness check, and run the unit tests. Suitable for CI / reproducibility.
+set -euo pipefail
+
+JOBS="${JOBS:-2}"
+CMAKE_ARGS=(-DCMAKE_BUILD_TYPE=Release)
+
+if [[ -z "${CMAKE_PREFIX_PATH:-}" ]] && command -v brew >/dev/null 2>&1; then
+  if brew --prefix cgal >/dev/null 2>&1; then
+    CMAKE_ARGS+=("-DCMAKE_PREFIX_PATH=$(brew --prefix cgal)")
+  fi
+fi
+
+cmake -S . -B build "${CMAKE_ARGS[@]}"
+cmake --build build --parallel "${JOBS}"
+
+# Smoke: exact fully-dynamic maintenance (DelauCluster, verified) vs the fast
+# incremental-DBSCAN baseline on a small delete/move stream.
+python3 scripts/run_dynamic_faithfulness.py \
+  --datasets chain_noise \
+  --n 400 --ops 60 --seeds 42 \
+  --rate-sweep 0.5 --every 15 \
+  --out-dir results/smoke_faithfulness \
+  --cluster-exe ./build/cluster \
+  --idbscan-exe ./build/incremental_dbscan_stream
+
+python3 -m unittest discover -s tests

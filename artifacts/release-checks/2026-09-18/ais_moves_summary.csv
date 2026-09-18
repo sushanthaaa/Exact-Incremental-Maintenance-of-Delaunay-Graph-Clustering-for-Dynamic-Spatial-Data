@@ -1,0 +1,2 @@
+vessels,reports,kept_reports,base,inserts,moves,deletes,ops,skipped_coincident,final_active,eps,frozen_threshold,unionfind_final_ari,unionfind_min_ari,delaucluster_ok,delaucluster_log_rows,delaucluster_verified,delaucluster_mismatches,delaucluster_fallbacks
+874,381508,6443,778,96,5569,87,5752,0,787,0.8020519954086918,1.403251164591352,0.629998,0.629998,True,5752,5752,0,0

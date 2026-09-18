@@ -1,0 +1,9 @@
+experiment      : comcat_revision  (CORRECTNESS re-verification)
+generated       : 2026-07-09 19:15 IST
+git commit      : 9efad1c (9efad1cbcd2c152ce58265f8e244dbb3459ddf14)
+machine         : Apple M3, 8 cores, 8 GB, macOS 26.5.1, Apple clang 21.0.0, CGAL 6.1.1, CMake Release (C++17), single-threaded
+command         : python3 scripts/run_comcat_revision_experiment.py --out-dir results/comcat_revision
+result          : USGS real revision: n_base 1451, inserts 2423, deletes 77, 2500 updates / 0 mismatches, baseline ARI 0.999955.
+note            : replayed from the cached data/ snapshots (no --refetch), so the event sets are
+                  identical to the originals. Timings in this dir are NOT quotable (the verifier
+                  adds a from-scratch fit per update).

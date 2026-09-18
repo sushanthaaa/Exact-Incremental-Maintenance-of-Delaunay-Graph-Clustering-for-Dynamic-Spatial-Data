@@ -1,0 +1,242 @@
+[
+  {
+    "dataset": "moons",
+    "seed": 42,
+    "candidate_index": 15,
+    "partition_equal": true
+  },
+  {
+    "dataset": "moons",
+    "seed": 43,
+    "candidate_index": 9,
+    "partition_equal": true
+  },
+  {
+    "dataset": "moons",
+    "seed": 44,
+    "candidate_index": 15,
+    "partition_equal": true
+  },
+  {
+    "dataset": "moons",
+    "seed": 45,
+    "candidate_index": 14,
+    "partition_equal": true
+  },
+  {
+    "dataset": "moons",
+    "seed": 46,
+    "candidate_index": 13,
+    "partition_equal": true
+  },
+  {
+    "dataset": "circles",
+    "seed": 42,
+    "candidate_index": 14,
+    "partition_equal": true
+  },
+  {
+    "dataset": "circles",
+    "seed": 43,
+    "candidate_index": 14,
+    "partition_equal": true
+  },
+  {
+    "dataset": "circles",
+    "seed": 44,
+    "candidate_index": 15,
+    "partition_equal": true
+  },
+  {
+    "dataset": "circles",
+    "seed": 45,
+    "candidate_index": 14,
+    "partition_equal": true
+  },
+  {
+    "dataset": "circles",
+    "seed": 46,
+    "candidate_index": 16,
+    "partition_equal": true
+  },
+  {
+    "dataset": "spiral",
+    "seed": 42,
+    "candidate_index": 6,
+    "partition_equal": true
+  },
+  {
+    "dataset": "spiral",
+    "seed": 43,
+    "candidate_index": 8,
+    "partition_equal": true
+  },
+  {
+    "dataset": "spiral",
+    "seed": 44,
+    "candidate_index": 6,
+    "partition_equal": true
+  },
+  {
+    "dataset": "spiral",
+    "seed": 45,
+    "candidate_index": 8,
+    "partition_equal": true
+  },
+  {
+    "dataset": "spiral",
+    "seed": 46,
+    "candidate_index": 10,
+    "partition_equal": true
+  },
+  {
+    "dataset": "varying_density",
+    "seed": 42,
+    "candidate_index": 12,
+    "partition_equal": true
+  },
+  {
+    "dataset": "varying_density",
+    "seed": 43,
+    "candidate_index": 7,
+    "partition_equal": true
+  },
+  {
+    "dataset": "varying_density",
+    "seed": 44,
+    "candidate_index": 13,
+    "partition_equal": true
+  },
+  {
+    "dataset": "varying_density",
+    "seed": 45,
+    "candidate_index": 9,
+    "partition_equal": true
+  },
+  {
+    "dataset": "varying_density",
+    "seed": 46,
+    "candidate_index": 9,
+    "partition_equal": true
+  },
+  {
+    "dataset": "touching",
+    "seed": 42,
+    "candidate_index": 5,
+    "partition_equal": true
+  },
+  {
+    "dataset": "touching",
+    "seed": 43,
+    "candidate_index": 4,
+    "partition_equal": true
+  },
+  {
+    "dataset": "touching",
+    "seed": 44,
+    "candidate_index": 4,
+    "partition_equal": true
+  },
+  {
+    "dataset": "touching",
+    "seed": 45,
+    "candidate_index": 4,
+    "partition_equal": true
+  },
+  {
+    "dataset": "touching",
+    "seed": 46,
+    "candidate_index": 5,
+    "partition_equal": true
+  },
+  {
+    "dataset": "chain_noise",
+    "seed": 42,
+    "candidate_index": 5,
+    "partition_equal": true
+  },
+  {
+    "dataset": "chain_noise",
+    "seed": 43,
+    "candidate_index": 8,
+    "partition_equal": true
+  },
+  {
+    "dataset": "chain_noise",
+    "seed": 44,
+    "candidate_index": 8,
+    "partition_equal": true
+  },
+  {
+    "dataset": "chain_noise",
+    "seed": 45,
+    "candidate_index": 9,
+    "partition_equal": true
+  },
+  {
+    "dataset": "chain_noise",
+    "seed": 46,
+    "candidate_index": 11,
+    "partition_equal": true
+  },
+  {
+    "dataset": "anisotropic",
+    "seed": 42,
+    "candidate_index": 16,
+    "partition_equal": true
+  },
+  {
+    "dataset": "anisotropic",
+    "seed": 43,
+    "candidate_index": 15,
+    "partition_equal": true
+  },
+  {
+    "dataset": "anisotropic",
+    "seed": 44,
+    "candidate_index": 13,
+    "partition_equal": true
+  },
+  {
+    "dataset": "anisotropic",
+    "seed": 45,
+    "candidate_index": 11,
+    "partition_equal": true
+  },
+  {
+    "dataset": "anisotropic",
+    "seed": 46,
+    "candidate_index": 12,
+    "partition_equal": true
+  },
+  {
+    "dataset": "uniform_noise",
+    "seed": 42,
+    "candidate_index": 6,
+    "partition_equal": true
+  },
+  {
+    "dataset": "uniform_noise",
+    "seed": 43,
+    "candidate_index": 4,
+    "partition_equal": true
+  },
+  {
+    "dataset": "uniform_noise",
+    "seed": 44,
+    "candidate_index": 4,
+    "partition_equal": true
+  },
+  {
+    "dataset": "uniform_noise",
+    "seed": 45,
+    "candidate_index": 9,
+    "partition_equal": true
+  },
+  {
+    "dataset": "uniform_noise",
+    "seed": 46,
+    "candidate_index": 7,
+    "partition_equal": true
+  }
+]

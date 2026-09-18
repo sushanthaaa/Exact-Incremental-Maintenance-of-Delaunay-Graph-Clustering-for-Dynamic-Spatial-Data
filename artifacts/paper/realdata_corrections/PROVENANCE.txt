@@ -1,0 +1,9 @@
+experiment      : realdata_corrections  (CORRECTNESS re-verification)
+generated       : 2026-07-09 19:15 IST
+git commit      : 9efad1c (9efad1cbcd2c152ce58265f8e244dbb3459ddf14)
+machine         : Apple M3, 8 cores, 8 GB, macOS 26.5.1, Apple clang 21.0.0, CGAL 6.1.1, CMake Release (C++17), single-threaded
+command         : python3 scripts/run_realdata_corrections.py --out-dir results/realdata_corrections --cluster-exe ./build/cluster --idbscan-exe ./build/incremental_dbscan_stream
+result          : nyc 1800 updates / 0 mismatches, baseline final ARI 0.862244+-0.164669; usgs_western 1800 / 0, 0.996897.
+note            : replayed from the cached data/ snapshots (no --refetch), so the event sets are
+                  identical to the originals. Timings in this dir are NOT quotable (the verifier
+                  adds a from-scratch fit per update).
